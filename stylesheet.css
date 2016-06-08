@@ -1,0 +1,49 @@
+img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	margin: 20px 20px 20px 20px;
+	position: relative;
+	opacity: 0.6;
+	border: 1px dashed black;
+	transition: border 2s;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+#photo{
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-style: italic;
+	color: grey;
+}
+ol{
+	list-style-type: upper-roman;
+}
+img:hover{
+	opacity: 1;
+	border: 1px solid black;
+}
+li:hover{
+	background-color: yellow;
+}
+#ingredients{
+	float:left;
+	width: 40%;
+	margin-left:10%;
+}
+#direction{
+	float:right;
+	width: 40%;
+	margin-right:10%;
+}
+.marked{
+	background-color: red;
+	text-decoration: line-through;
+}
